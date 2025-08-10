@@ -86,4 +86,19 @@ print(d1,type(d1))
 
 '''
 
+d2={input("enter a key:"):input("enter value:") for x in range(3)}
+print(d2)
+print(type(d2))
+
+'''
+enter a key:1
+enter value:"rishu"
+enter a key:2
+enter value:"mustufa"
+enter a key:3
+enter value:"vids"
+{'1': '"rishu"', '2': '"mustufa"', '3': '"vids"'}
+<class 'dict'>
+
+'''
 
