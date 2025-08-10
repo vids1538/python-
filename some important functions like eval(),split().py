@@ -66,3 +66,13 @@ enter 3 number:11 44 77
 11 44 77
 <class 'int'>
 '''
+t1=list([eval(g) for g in input("enter data:").split()])
+print(t1)
+print(type(t1))
+'''
+enter data:22 44 55 66 212 55 667 892
+[22, 44, 55, 66, 212, 55, 667, 892]
+<class 'list'>
+'''
+
+
