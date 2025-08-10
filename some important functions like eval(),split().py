@@ -75,4 +75,15 @@ enter data:22 44 55 66 212 55 667 892
 <class 'list'>
 '''
 
+d1=dict(input().split('-') for i in range(3))
+print(d1,type(d1))
+
+'''
+12-"aam"
+13-"anar"
+14-"sev"
+{'12': '"aam"', '13': '"anar"', '14': '"sev"'} <class 'dict'>
+
+'''
+
 
