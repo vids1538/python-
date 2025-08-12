@@ -14,6 +14,8 @@ while True:
     except ValueError:
           print("insufficient Balance.")
           print("current balance is :",cb)
+    finally:
+        ptint("thannks")
 
 '''
  output
@@ -50,3 +52,4 @@ current balance is : 2756
                 enter amount:
 
 '''
+
